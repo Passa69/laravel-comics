@@ -2,42 +2,11 @@
 @section('content')
     <section id="home_sec">
         <div id="comics">
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
-            <div class="comic">
-                <h5><a href="{{ url('action') }}">Action comics</a></h5>
-            </div>
+            @for ($i = 0; $i < 12; $i++)
+                <div class="comic">
+                    <h5><a href="{{ url('action') }}">Action comics</a></h5>
+                </div>
+            @endfor
         </div>
 
         <nav id="home_nav">
