@@ -1,7 +1,25 @@
 @extends('layouts.main-layout')
 @section('content')
     <div id="action_up">
+        <div id="band"></div>
 
+        <div id="action_cont">
+            <div>
+                <h2>ACTION COMICS #1000: THE DULUXE EDITION</h2>
+
+                <div id="green">
+                    U.S. price: 19.99$
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro deserunt mollitia a nisi quis beatae nihil autem ipsam in quaerat earum voluptatum amet necessitatibus deleniti obcaecati ducimus, quas quia ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, a. Corporis, quod! Non ad odit, voluptatem, cupiditate facilis voluptatibus totam voluptates mollitia, a ullam itaque repudiandae esse odio architecto quisquam.</p>
+            </div>
+
+            <div>
+                <h4>ADVISERMENT</h4>
+
+                <div id="ad"></div>
+            </div>
+        </div>
     </div>
 
     <section id="grey">
