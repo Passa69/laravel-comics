@@ -67,6 +67,11 @@ ul {
 }
 
 /* home */
+#home_sec {
+    background-color: rgb(105, 104, 104);
+    height: 500px;
+}
+
 #home_nav {
     background-color: rgb(65, 181, 219);
     padding: 10px 0;
@@ -74,4 +79,19 @@ ul {
 
 #home_nav > ul > li > a {
     color: white;
+}
+
+#comics {
+    margin: 15px auto;
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.comic {
+    height: 100px;
+    width: 13%;
+    margin: 10px;
+    background-color: red;
 }
