@@ -3,40 +3,40 @@
     <section id="home_sec">
         <div id="comics">
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
             <div class="comic">
-                <h5><a href="">Action comics</a></h5>
+                <h5><a href="{{ url('action') }}">Action comics</a></h5>
             </div>
         </div>
 
