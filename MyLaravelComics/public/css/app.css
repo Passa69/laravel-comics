@@ -98,3 +98,50 @@ ul {
     margin: 10px;
     background-color: red;
 }
+
+/* action */
+#grey,nav {
+    background-color: lightgrey;
+}
+
+#action_down {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+}
+
+#action_down > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.action {
+    width: 50%;
+    margin: 0 20px;
+}
+
+.action > h2 {
+    color: blue;
+}
+
+.action > div {
+    padding: 20px 0;
+    border-top: 1px solid rgb(163, 163, 163);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.action > div > p {
+    width: 50%;
+}
+
+.action_title {
+    color: blue;
+}
+
+#action_nav {
+    border: 1px solid rgb(163, 163, 163);
+}
