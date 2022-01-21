@@ -1,0 +1,57 @@
+/* header */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin: 10px 15px 0 0;
+}
+
+nav > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+nav > h2 {
+    display: inline;
+}
+
+#jumbo {
+    /* background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fsciencefiction.com%2F2019%2F12%2F18%2F2-year-old-petition-to-revive-the-original-teen-titans-cartoon-resurfaces-on-social-media%2F&psig=AOvVaw358yoc15PJS6E0Zb-sRVOa&ust=1642864513435000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDxzbORw_UCFQAAAAAdAAAAABAD); */
+    background-color: rgb(160, 0, 160);
+    height: 300px;
+    width: 100%;
+}
+
+/* footer */
+#foot_up {
+    background-color: grey;
+    /* debug */
+    height: 200px;
+}
+
+#foot_down {
+    background-color: rgb(77, 77, 77);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#foot_down > button {
+    color: rgb(97, 183, 212);
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(77, 77, 77);
+    border: 2px solid rgb(97, 183, 212);
+}
+
+#foot_down > div {
+    color: rgb(97, 183, 212);
+    margin-right: 10px;
+}
