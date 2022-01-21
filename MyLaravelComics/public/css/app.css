@@ -11,7 +11,7 @@ nav > ul > li {
     margin: 10px 15px 0 0;
 }
 
-nav > ul > li > a {
+a {
     color: black;
     text-decoration: none;
 }
@@ -29,9 +29,19 @@ nav > h2 {
 
 /* footer */
 #foot_up {
+    /* background-image: url(); */
     background-color: grey;
-    /* debug */
-    height: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+.list_title {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
 }
 
 #foot_down {
