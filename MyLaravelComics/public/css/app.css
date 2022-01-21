@@ -65,3 +65,13 @@ ul {
     color: rgb(97, 183, 212);
     margin-right: 10px;
 }
+
+/* home */
+#home_nav {
+    background-color: rgb(65, 181, 219);
+    padding: 10px 0;
+}
+
+#home_nav > ul > li > a {
+    color: white;
+}
