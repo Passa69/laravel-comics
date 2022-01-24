@@ -162,7 +162,7 @@ ul {
 
 #action_cont > div {
     width: 50%;
-    margin: 30px 10px;
+    margin: 30px 30px;
 }
 
 #action_cont > div > h2 {
@@ -182,5 +182,6 @@ ul {
 #ad {
     height: 300px;
     width: 300px;
-    background-color: red;
+    background-image: url('/storage/assets/superman.jpg');
+    background-size: cover;
 }
