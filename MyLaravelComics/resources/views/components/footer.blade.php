@@ -1,6 +1,4 @@
 <footer>
-    <img src="{{ asset('/storage/assets/footer-bg.jpg') }}" alt="">
-    
     <div id="foot_up">
 
         <div>

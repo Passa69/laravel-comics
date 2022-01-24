@@ -17,6 +17,5 @@
     </nav>
     
     <div id="jumbo">
-        <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
     </div>
 </header>
