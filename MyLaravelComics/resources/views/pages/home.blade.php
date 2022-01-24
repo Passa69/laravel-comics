@@ -2,22 +2,14 @@
 @section('content')
     <section id="home_sec">
         <div id="comics">
-            @for ($i = 0; $i < 12; $i++)
+            @foreach ($comics as $comic)
                 <div class="comic">
                     <a href="{{ url('action') }}">
-                        <img src="{{ asset('/storage/assets/superman.jpg') }}" alt="">
+                        <img src="{{ asset($comic['img']) }}" alt="">
                     </a>
-                    <h4>Action Comic</h4>
+                    <h4>{{ $comic['name'] }}</h4>
                 </div>
-            @endfor
-            {{-- @for ($i = 0; $i < 12; $i++)
-                <div class="comic">
-                    <a href="{{ url('action') }}">
-                        <img src="{{ asset('{{ $comic[$i] }}') }}" alt="">
-                    </a>
-                    <h4>Action Comic</h4>
-                </div>
-            @endfor --}}
+            @endforeach
         </div>
 
         <nav id="home_nav">
