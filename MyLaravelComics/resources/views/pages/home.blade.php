@@ -4,7 +4,10 @@
         <div id="comics">
             @for ($i = 0; $i < 12; $i++)
                 <div class="comic">
-                    <h5><a href="{{ url('action') }}">Action comics</a></h5>
+                    <a href="{{ url('action') }}">
+                        <img src="{{ asset('/storage/assets/superman.jpg') }}" alt="">
+                    </a>
+                    <h4>Action Comic</h4>
                 </div>
             @endfor
         </div>
