@@ -22,10 +22,8 @@ nav > h2 {
     display: inline;
 }
 
-#jumbo {
-    /* background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fsciencefiction.com%2F2019%2F12%2F18%2F2-year-old-petition-to-revive-the-original-teen-titans-cartoon-resurfaces-on-social-media%2F&psig=AOvVaw358yoc15PJS6E0Zb-sRVOa&ust=1642864513435000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDxzbORw_UCFQAAAAAdAAAAABAD); */
-    background-color: rgb(160, 0, 160);
-    height: 300px;
+#jumbo > img {
+    height: 80vh;
     width: 100%;
 }
 
