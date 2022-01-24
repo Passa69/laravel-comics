@@ -1,5 +1,8 @@
 <footer>
+    <img src="{{ asset('/storage/assets/footer-bg.jpg') }}" alt="">
+    
     <div id="foot_up">
+
         <div>
             <ul>
                 <li class="list_title">DC COMICS</li>

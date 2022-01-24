@@ -28,9 +28,18 @@ nav > h2 {
 }
 
 /* footer */
+footer {
+    position: relative;
+}
+
+footer > img{
+    width: 100%;
+}
+
 #foot_up {
-    /* background-image: url(); */
-    background-color: grey;
+    position: absolute;
+    left: 20px;
+    top: 50px;
     display: flex;
     flex-direction: row;
     padding: 20px 20px;
@@ -70,7 +79,6 @@ ul {
 /* home */
 #home_sec {
     background-color: rgb(105, 104, 104);
-    height: 500px;
 }
 
 #home_nav {
