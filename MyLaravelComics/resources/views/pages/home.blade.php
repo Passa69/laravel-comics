@@ -10,6 +10,14 @@
                     <h4>Action Comic</h4>
                 </div>
             @endfor
+            {{-- @for ($i = 0; $i < 12; $i++)
+                <div class="comic">
+                    <a href="{{ url('action') }}">
+                        <img src="{{ asset('{{ $comic[$i] }}') }}" alt="">
+                    </a>
+                    <h4>Action Comic</h4>
+                </div>
+            @endfor --}}
         </div>
 
         <nav id="home_nav">
